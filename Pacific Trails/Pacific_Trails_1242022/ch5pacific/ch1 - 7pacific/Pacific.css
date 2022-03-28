@@ -1,0 +1,147 @@
+* { box-sizing: border-box; }
+body{
+    background-color: #EAEAEA;
+    color: #666666;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#wrapper{
+    padding: 2em;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    background-color: #90C7E3;
+    border: 1px #000033;
+    background-image: linear-gradient(to bottom, #FFFFFF, #90C7E3);
+    min-width: 960px;
+    max-width: 2048px;
+    box-shadow: 3px 0 0 #333333;
+}
+header
+{
+    color: #FFFFFF;
+    background-position: right;
+    background-repeat: no-repeat;
+    height:120px;
+    text-align: center;
+    padding-top: 30px;
+    padding-left: 3em;
+    background-color: #002171;
+}
+header a{
+    text-decoration: none;
+}
+header :link{
+    color: #FFFFFF;
+}
+header :visited{
+    color: #FFFFFF;
+}
+header :hover{
+    color: #90C7E3;
+}
+#homehero{
+    height: 300px;
+    margin-left: 190px;
+    background-image: url("ch7pacific/coast2.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+}
+#yurthero{
+    height: 300px;
+    margin-left: 190px;
+    background-image: url("ch7pacific/yurt.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+}
+#trailhero{
+    height: 300px;
+    margin-left: 190px;
+    background-image: url("ch7pacific/trail.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+}
+h1 {
+    font-size: 3em;
+    letter-spacing: 0.25em;
+    margin-top: 0;
+    font-family: Georgia, "Times New Roman", serif;
+
+    margin-bottom: 0;
+}
+nav {
+
+    font-weight: bold;
+    padding: 1.5em;
+    font-size: 120%;
+    float: left;
+    width: 160px;
+}
+nav a{
+    text-decoration: none;}
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding-left: 0;
+    font-size: 1.2em;
+}
+nav :link{
+    color: #5C7FA3;
+}
+nav :visited{
+    color: #344873;
+}
+nav :hover{
+    color: #A52A2A;
+}
+main{
+    padding: 1px 20px 20px 30px;
+    display: block;
+    background-color: #FFFFFF;
+    margin-left: 190px;
+    overflow: auto;
+}
+section{
+    float: left;
+    width: 33%;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+
+h2 {
+    color: #1976D2;
+    font-family: Georgia, "Times New Roman", serif;
+    text-shadow: 1px 0 0 #CCCCCC;
+
+}
+
+h3{
+    font-family: Georgia, "Times New Roman", serif;
+    color: #000033;
+}
+dt{
+    color: #002171;
+}
+main ul{
+list-style-image: url("ch7pacific/marker.gif");
+}
+footer{
+    background-color: #FFFFFF;
+    margin-left: 190px;
+    padding: 2em;
+    font-size: 75%;
+    font-style: italic;
+    text-align: center;
+    font-family: Georgia, "Times New Roman", serif;
+}
+.contact{
+    color: black;
+    font-size: 90%;
+}
+.resort{
+    font-weight: bold;
+    color: #1976D2;
+}
